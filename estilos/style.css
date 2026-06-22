@@ -187,7 +187,7 @@ div.serviços {
 div.card {
   display: inline-block;
   width: 100vh;
-  padding: 20px;
+  padding: 30px;
   margin: 1%;
   border: 1px solid black;
   border-radius: 10px;
@@ -274,6 +274,7 @@ p.agência-p {
   }
   div.headline > p {
     text-align: center;
+    text-align: justify;
   }
 
   h2#título-grande2 {
@@ -309,7 +310,7 @@ p.agência-p {
   div.card {
     width: 100%;
     text-align: center;
-    margin: 2.5%;
+    margin: 10px 20px;
   }
 
   .instagram {
