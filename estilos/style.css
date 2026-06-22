@@ -66,6 +66,7 @@ div.menu > a {
   padding: 20px 15px;
   transition: 0.3s ease;
   transform: 0.3s ease;
+  
 }
 
 div.menu > a:hover {
@@ -109,6 +110,7 @@ div.headline > h2 {
   margin: 0px;
   font-family: var(--font-título);
   text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.329);
+  
 }
 
 div.headline > h2.título-pequeno {
@@ -126,6 +128,8 @@ div.headline > p {
   text-align: justify;
   font-family: 'Times New Roman', Times, serif;
   text-indent: 30px;
+  font-size: 1.1em;
+
 }
 
 a.contact-btn {
@@ -136,7 +140,9 @@ a.contact-btn {
   border-radius: 5px;
   display: inline-block;
   font-family: var(--font-título);
-  text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.329);
+  font-weight: bold;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.048);
+  text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.082);
   transition: color 0.3s ease;
 }
 
@@ -177,6 +183,13 @@ section > h2 {
   font-weight: bold;
   color: var(--cor-logo);
   text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.329);
+}
+
+section > h2#bottom {
+  font-size: 2em;
+  text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.329);
+  color: var(--font-título);
+
 }
 
 div.serviços {
@@ -243,6 +256,8 @@ h1.agência {
   font-size: 25px;
 }
 
+
+
 p.agência-p {
   color: white;
   font-family: var(--font-título);
@@ -287,6 +302,10 @@ p.agência-p {
   font-size: 2.5em;
   }
 
+  section > h2#bottom {
+    font-size: 1.5em;
+  }
+
   header.header {
     padding-top: 120px;
   }
@@ -303,7 +322,7 @@ p.agência-p {
 
   div.imagem-headline {
     flex: 100%;
-    margin: 5%;
+    margin: 2%;
     text-align: center;
   }
 
