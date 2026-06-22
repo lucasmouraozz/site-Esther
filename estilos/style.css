@@ -256,8 +256,6 @@ h1.agência {
   font-size: 25px;
 }
 
-
-
 p.agência-p {
   color: white;
   font-family: var(--font-título);
@@ -322,14 +320,17 @@ p.agência-p {
 
   div.imagem-headline {
     flex: 100%;
-    margin: 2%;
+    margin: 2.5%;
     text-align: center;
   }
 
   div.card {
     width: 100%;
     text-align: center;
-    margin: 10px 20px;
+    
+    margin: auto;
+    margin: 13px;
+    
   }
 
   .instagram {
