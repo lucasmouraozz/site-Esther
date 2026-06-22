@@ -201,6 +201,7 @@ div.card {
   display: inline-block;
   width: 100vh;
   padding: 30px;
+  margin: auto;
   margin: 1%;
   border: 1px solid black;
   border-radius: 10px;
