@@ -226,7 +226,7 @@ div.card:hover > img {
 
 footer {
   margin-top: 100px;
-  height: 350px;
+  height: 370px;
   background-image: linear-gradient(135deg, #111111, #556B2F, black);
   text-align: center;
   border-top: 5px solid var(--cor-menu);
@@ -270,6 +270,9 @@ p.agência-p {
 
   div.logo {
     margin: 0px;
+    text-align: center;
+  }
+  div.headline > p {
     text-align: center;
   }
 
@@ -317,7 +320,7 @@ p.agência-p {
     display: block;
     text-align: center;
     padding: 20px;
-    font-size: 1.15em;
+    font-size: 1em;
     color: #BDBDBD;
     font-weight: bold;
     background-color: #111111;
