@@ -126,10 +126,9 @@ div.headline > p {
   color: black;
   text-align: left;
   text-align: justify;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: var(--font-título);
   text-indent: 30px;
   font-size: 1.1em;
-
 }
 
 a.contact-btn {
